@@ -1,0 +1,128 @@
+
+html{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    min-height: 100%;
+    height: auto;
+}
+
+.claro{
+    color:white;
+}
+.colorIconoLogin{
+    color:#20a8a6;
+}
+
+.fondo-login{
+    background: rgb(2,0,36);
+    background: linear-gradient(142deg, rgba(2,0,36,1) 0%, rgba(80,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    background: #1A2980;  /* fallback for old browsers */
+    background: linear-gradient(to right, #26D0CE, #1A2980); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.boton-oscuro{
+    background: rgb(23, 32, 42);
+    background: linear-gradient(142deg, rgba(66, 73, 73,1) 0%, rgba(121, 125, 127,1) 35%, rgba(97, 106, 107,1) 100%);
+    background: #202326;  /* fallback for old browsers */
+    background: linear-gradient(to right, #545b62, #1b1e21);
+}
+
+.video-login{
+ width: 100%;
+ height: 100%;
+}
+
+
+.sombra{
+    box-shadow: 2px 7px 5px -1px rgba(0,0,0,0.2);
+}
+
+.estadoActivo{
+    color: #01a2b9;
+    background-color: #b3e8fc;
+}
+
+.estadoFinalizado{
+    color: green;
+    background-color: #91ff98;
+}
+
+.estadoCancelado{
+    color: red;
+    background-color: #ffbaba;
+}
+
+.calificar{
+    color: rgb(255, 199, 0);
+    background-color: rgba(253, 255, 156, 0.85);
+}
+
+.finalizar{
+    color: rgb(166, 123, 0);
+    background-color: rgba(255, 226, 0, 0.75);
+}
+
+.redondeadoEstado{
+    border-radius: 50px 50px 50px 50px;
+    border: 0px solid #000000;
+}
+
+.denunciar{
+    color: rgb(255, 98, 0);
+    background-color: rgb(255, 207, 144);
+}
+
+#form {
+    width: 250px;
+    margin: 0 auto;
+    height: 50px;
+}
+
+#form p {
+    text-align: center;
+}
+
+#form label {
+    font-size: 20px;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+.labelFormCalificar{
+    color: grey;
+    width: 60px;
+    height: 60px;
+    font-size: 40px;
+}
+
+.clasificacion {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+}
+
+label:hover,
+label:hover ~ label {
+    color: orange;
+}
+
+input[type="radio"]:checked ~ label {
+    color: orange;
+    
+}
+
+.ir-arriba {
+    display:none;
+    padding:20px;
+    background:#024959;
+    font-size:20px;
+    color:#fff;
+    cursor:pointer;
+    position: fixed;
+    bottom:20px;
+    right:20px;
+}
